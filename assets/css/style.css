@@ -348,11 +348,11 @@ ol li {
 }
 
 .btn-primary {
-  background-color: #ECC80B;
+  background-color: #7DD3FC;
   color: #0E0E0E;
 }
 .btn-primary:active, .btn-primary:hover, .btn-primary:focus {
-  background-color: #ECB50B;
+  background-color: #7DD3FC;
   color: #0E0E0E;
 }
 
@@ -458,7 +458,7 @@ ol li {
   z-index: 9999;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: #ECC80B;
+  background-color: #7DD3FC;
   font-size: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -838,6 +838,7 @@ picture.jarallax-img img {
 }
 
 .theme-btn {
+  visibility: hidden;
   margin-right: 36px;
   border: 0;
   background-color: transparent;
@@ -866,6 +867,7 @@ picture.jarallax-img img {
 }
 
 .sideMenuButton {
+  display: none;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -1199,7 +1201,7 @@ picture.jarallax-img img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #ECC80B;
+  background-color: #FBBF24;
   color: #0E0E0E;
   font-size: 14px;
   font-weight: 600;
@@ -1862,7 +1864,7 @@ picture.jarallax-img img {
   z-index: 100;
   width: 160px;
   height: 160px;
-  background-color: #ECC80B;
+  background-color: #FBBF24;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1961,7 +1963,7 @@ picture.jarallax-img img {
 }
 .mission-vision-accordion .accordion-item .accordion-button:not(.collapsed) {
   color: #0E0E0E;
-  background-color: #ECC80B;
+  background-color: #7DD3FC;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 8px 8px 0 0;
@@ -2248,7 +2250,7 @@ picture.jarallax-img img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #ECC80B;
+  background-color: #FBBF24;
   min-width: 80px;
   border-radius: 50%;
   margin: auto;
@@ -2309,7 +2311,7 @@ picture.jarallax-img img {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ECB50B;
+  background-color: #7DD3FC;
   content: "";
   top: 50%;
   left: 50%;
@@ -2321,7 +2323,7 @@ picture.jarallax-img img {
   opacity: 0;
 }
 .portfolio-swiper-navigation > div:hover, .portfolio-swiper-navigation > div:focus {
-  background-color: #ECC80B;
+  background-color: #7DD3FC;
 }
 .portfolio-swiper-navigation > div:hover::before, .portfolio-swiper-navigation > div:focus::before {
   width: 100%;
@@ -2330,7 +2332,7 @@ picture.jarallax-img img {
 }
 
 .catagory-slide {
-  background-color: #ECC80B;
+  background-color: #38BDF8;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -2595,7 +2597,7 @@ form .btn {
   width: 129px;
   height: 50px;
   border-radius: 30px;
-  background: #ECC80B;
+  background: #7DD3FC;
   gap: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2625,7 +2627,7 @@ form .btn {
           justify-content: center;
   gap: 27px;
   border-radius: 30px;
-  background: #ECC80B;
+  background: #7DD3FC;
   height: 50px;
   padding-left: 24px;
   padding-right: 24px;
@@ -2993,10 +2995,10 @@ form .btn {
   }
 }
 .blog-card .post-title:hover, .blog-card .post-title:focus {
-  color: #ECC80B;
+  color: #FBBF24;
 }
 .blog-card:hover, .blog-card:focus {
-  border-color: #ECC80B;
+  border-color: #FBBF24;
 }
 
 .blog-card-two {
@@ -3632,7 +3634,7 @@ form .btn {
   width: 50px;
   height: 50px;
   border-radius: 24px;
-  background: #ECC80B;
+  background: #FBBF24;
   min-width: 50px;
   padding: 0;
   position: absolute;
@@ -3816,7 +3818,7 @@ form .btn {
 }
 
 .cta-video-wrapper {
-  background-color: #ECC80B;
+  background-color: #38BDF8;
 }
 .cta-video-wrapper .video-wrap {
   position: relative;
@@ -3836,6 +3838,20 @@ form .btn {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.video-wrap video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+}
+
 @media only screen and (min-width:992px) {
   .cta-video-wrapper .video-wrap {
     height: 600px;
@@ -4548,7 +4564,7 @@ form .btn {
 }
 .faq-image .faq-info {
   border-radius: 20px;
-  background: #ECC80B;
+  background: #FBBF24;
   width: 230px;
   padding: 22px 20px;
   gap: 13px;
