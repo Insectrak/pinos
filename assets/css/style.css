@@ -5759,3 +5759,11 @@ form .btn {
 .projects-wrapper-two{
   background-color: #F3F4F6;
 }
+
+.overflowtext{
+  overflow-wrap: break-word;
+}
+
+.flexconctac{
+  display: inline-grid;
+}
