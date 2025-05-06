@@ -5777,3 +5777,24 @@ form .btn {
       width: 200px;
   }
 }
+
+.iframepinosdiv{
+    position: relative; /* Necesario para que el iframe absoluto se posicione dentro */
+    width: 100%; /* El div ocupa el 100% del ancho de su padre */
+    height: 750px; /* Define una altura para el div (ajústala según necesites) */
+}
+
+@media (max-width: 600px) {
+  .iframepinosdiv{
+      width: 300px;
+  }
+}
+
+.iframepinos {
+  position: absolute; /* Permite que el iframe se posicione dentro del div */
+  top: 0;
+  left: 0;
+  width: 100%; /* El iframe ocupa el 100% del ancho del div */
+  height: 100%; /* El iframe ocupa el 100% de la altura del div */
+  border: none; /* Opcional: Elimina el borde predeterminado del iframe */
+}
