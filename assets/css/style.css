@@ -5771,3 +5771,9 @@ form .btn {
 .widthlogo{
   width: 250px;
 }
+
+@media (max-width: 600px) {
+  .widthlogo{
+      width: 200px;
+  }
+}
