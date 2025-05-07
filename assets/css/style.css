@@ -5542,6 +5542,7 @@ form .btn {
 .light-mode .service-two-swiper .swiper-slide {
   border-color: #ffffff;
   background: transparent;
+  min-height: 500px;
 }
 .light-mode .service-two-swiper .swiper-slide h2 {
   color: #FBBF24;
