@@ -1804,7 +1804,7 @@ picture.jarallax-img img {
 }
 @media only screen and (min-width:1200px) {
   .price-card .price-info .price {
-    font-size: 60px;
+    font-size: 39px;
   }
 }
 .price-card .price-info .price span {
@@ -5540,7 +5540,7 @@ form .btn {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M5%2012H19%22%20stroke%3D%22%23000000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22square%22/%3E%3C/svg%3E");
 }
 .light-mode .service-two-swiper .swiper-slide {
-  border-color: rgba(26, 26, 26, 0.3);
+  border-color: #ffffff;
   background: transparent;
 }
 .light-mode .service-two-swiper .swiper-slide h2 {
@@ -5797,4 +5797,8 @@ form .btn {
   width: 100%; /* El iframe ocupa el 100% del ancho del div */
   height: 100%; /* El iframe ocupa el 100% de la altura del div */
   border: none; /* Opcional: Elimina el borde predeterminado del iframe */
+}
+
+.whitetext{
+  color: #f3f4f6 !important;
 }
