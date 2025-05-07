@@ -3790,7 +3790,7 @@ form .btn {
   content: "";
   top: 0;
   right: 0;
-  background-color: rgba(26, 26, 26, 0.5);
+  /*background-color: rgba(26, 26, 26, 0.5); */
   display: none;
 }
 @media only screen and (min-width:768px) {
