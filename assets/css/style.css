@@ -1785,7 +1785,7 @@ picture.jarallax-img img {
 /* Pricing */
 .price-card {
   border-radius: 20px;
-  border: 1px solid rgba(254, 254, 254, 0.2);
+  border: 1px solid #ffffff;
   padding: 40px 36px;
 }
 .price-card .price-info {
@@ -5393,7 +5393,7 @@ form .btn {
   background-color: #FBBF24;
 }
 .light-mode .process-card-two {
-  border-color: rgba(26, 26, 26, 0.2);
+  border-color: #ffffff;
 }
 .light-mode .award-card {
   border-color: rgba(26, 26, 26, 0.3);
@@ -5566,7 +5566,7 @@ form .btn {
   border-color: #F6F5F3;
 }
 .light-mode .price-card {
-  border-color: rgba(26, 26, 26, 0.3);
+  border-color: #ffffff;
 }
 .light-mode .price-card .price-info h6 {
   color: #FBBF24;
