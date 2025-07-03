@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $destinatario = "killersquadron@gmail.com"; // Reemplaza con el correo para reclamos
+    $destinatario = "pinocontacto@grupoinmobiliarioes.com"; // Reemplaza con el correo para reclamos
     $titulo_correo = "Nuevo Reclamo Recibido";
 
     // Construye el cuerpo del correo electrónico

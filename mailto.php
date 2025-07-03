@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $destinatario = "killersquadron@gmail.com"; // Reemplaza con tu dirección de correo electrónico
+    $destinatario = "pinocontacto@grupoinmobiliarioes.com"; // Reemplaza con tu dirección de correo electrónico
     $titulo_correo = "Nuevo mensaje desde el formulario de contacto";
 
     // Construye el cuerpo del correo electrónico
